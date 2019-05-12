@@ -1,0 +1,43 @@
+html {
+    background-color: rgb(235, 116, 86);
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+#AF_burger {
+    display: block;
+   margin: auto;
+}
+h1 {
+    text-align: center;
+    font-family:  monospace;
+    font-size: 65px;
+    margin: 50px;
+}
+.list{
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px; 
+}
+.form{
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px; 
+}
+#burger-input{
+    
+    border-radius: 5px;
+    width: 50%;
+    margin: 0;
+    padding: 10px; 
+}
