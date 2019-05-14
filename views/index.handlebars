@@ -3,7 +3,7 @@
 		<form class="form" action="/api/burgers" method="POST">
 			<textarea type="text" name="burger" id="burger-input"></textarea>
 			<p>Enter a burger you want to eat. Then, click the "Add Burger" button.</p>
-			<button type="submit" id="add-burger">Add Burger</button>
+			<button class = "button" type="submit" id="add-burger">Add Burger</button>
 		</form>
 	</div>
 </div>
@@ -16,7 +16,7 @@
 			{{#each burgers}}
 			{{#unless devoured}}
 			<div>
-				<p>{{id}}. {{burger_name}} <button class="devour" data-burgerid="{{id}}"> Devour it!</button></p>
+				<p>{{id}}. {{burger_name}} <button class="devour button" data-burgerid="{{id}}"> Devour it!</button></p>
 			</div>
 			{{/unless}}
 			{{/each}}

@@ -3,12 +3,12 @@ html {
 }
 
 body {
-    width: 75%;
+width: 75%;
    margin: 0 auto; 
    display: flex;
    min-height: 100vh;
    flex-direction: column;
-   background-color: white;
+   background-color: rgb(235, 116, 86);
 }
 #AF_burger {
     display: block;
@@ -26,6 +26,9 @@ h1 {
     width: 100%;
     margin: 0;
     padding: 10px; 
+    background-color: rgb(119, 32, 11);
+    margin:1%;
+    color: white
 }
 .form{
     text-align: center;
